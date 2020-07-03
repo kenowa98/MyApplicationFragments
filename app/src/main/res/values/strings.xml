@@ -1,0 +1,66 @@
+<resources>
+    <string name="app_name">Kings Game</string>
+    <string name="action_close">Cerrar sesión</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+    <string name="menu_perfil">Perfil</string>
+    <string name="menu_equipo">Equipo</string>
+    <string name="menu_partido">Partido</string>
+    <string name="menu_busqueda">Búsqueda</string>
+    <string name="menu_noticias">Noticias</string>
+    <string name="menu_ranking">Ranking</string>
+
+    <string name="registro_titulo_actividad">REGISTRO</string>
+    <string name="nombre">Nombre completo</string>
+    <string name="email">Correo electrónico</string>
+    <string name="telefono">Celular</string>
+    <string name="clave">Contraseña</string>
+    <string name="claveAgain">Confirmar contraseña</string>
+    <string name="fecha_titulo">Fecha de nacimiento</string>
+    <string name="fecha_nacimiento">yyyy/MM/dd</string>
+    <string name="lugar_nacimiento_titulo">Lugar de nacimiento</string>
+    <string name="sexo">Género</string>
+    <string name="sexF">Femenino</string>
+    <string name="sexM">Masculino</string>
+
+    <string name="guardar">GUARDAR</string>
+    <string name="login_titulo">ENTRAR</string>
+    <string name="registro_titulo">REGISTRARSE</string>
+    <string name="cerrar_sesion">Cerrar sesión</string>
+
+    <string-array name="lista_ciudades">
+        <item>Seleccione una ciudad</item>
+        <item>Otro</item>
+        <item>Extranjero</item>
+        <item>Bogotá</item>
+        <item>Medellín</item>
+        <item>Cali</item>
+        <item>Barranquilla</item>
+        <item>Cartagena</item>
+        <item>Soacha</item>
+        <item>Cúcuta</item>
+        <item>Soledad</item>
+        <item>Bucaramanga</item>
+        <item>Bello</item>
+        <item>Villavicencio</item>
+        <item>Ibagué</item>
+        <item>Santa Marta</item>
+        <item>Valledupar</item>
+        <item>Manizales</item>
+        <item>Pereira</item>
+        <item>Montería</item>
+        <item>Neiva</item>
+        <item>Pasto</item>
+        <item>Armenia</item>
+    </string-array>
+
+    <string name="msg1">Aparece datos del jugador, foto y calificaciones dadas por otros jugadores</string>
+    <string name="msg2">Aparece nombre del equipo, integrantes y calificaciones dadas por otros equipos</string>
+    <string name="msg3">Se puede filtrar la búsqueda de un lugar para reservar y crear un partido</string>
+    <string name="msg4">Se publican informaciones de los lugares de reserva como descuentos o torneos, y aparece el horario y lugar de partidos que se van a disputar entre dos equipos</string>
+    <string name="msg5">Se muestra el top10, la posición del equipo del usuario y el equipo que está por encima de su equipo</string>
+    <string name="msg6">Hay la opción de filtrar la búsqueda de jugadores o equipos para reclutar, retar, invitar a jugar, entre otras opciones</string>
+
+</resources>

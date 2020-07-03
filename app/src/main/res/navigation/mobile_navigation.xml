@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_perfil">
+
+    <fragment
+        android:id="@+id/nav_perfil"
+        android:name="com.kenowa.myapplicationfragments.fragments.PerfilFragment"
+        android:label="@string/menu_perfil"
+        tools:layout="@layout/fragment_perfil" />
+
+    <fragment
+        android:id="@+id/nav_equipo"
+        android:name="com.kenowa.myapplicationfragments.fragments.EquipoFragment"
+        android:label="@string/menu_equipo"
+        tools:layout="@layout/fragment_equipo" />
+
+    <fragment
+        android:id="@+id/nav_partido"
+        android:name="com.kenowa.myapplicationfragments.fragments.PartidoFragment"
+        android:label="@string/menu_partido"
+        tools:layout="@layout/fragment_partido" />
+
+    <fragment
+        android:id="@+id/nav_busqueda"
+        android:name="com.kenowa.myapplicationfragments.fragments.BusquedaFragment"
+        android:label="@string/menu_busqueda"
+        tools:layout="@layout/fragment_busqueda" />
+
+    <fragment
+        android:id="@+id/nav_noticias"
+        android:name="com.kenowa.myapplicationfragments.fragments.NoticiasFragment"
+        android:label="@string/menu_noticias"
+        tools:layout="@layout/fragment_noticias" />
+
+    <fragment
+        android:id="@+id/nav_ranking"
+        android:name="com.kenowa.myapplicationfragments.fragments.RankingFragment"
+        android:label="@string/menu_ranking"
+        tools:layout="@layout/fragment_ranking" />
+</navigation>
