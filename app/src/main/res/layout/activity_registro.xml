@@ -39,7 +39,7 @@
             android:fontFamily="@font/amiko"
             android:hint="@string/nombre"
             android:inputType="textPersonName"
-            android:textSize="22sp"
+            android:textSize="24sp"
             tools:ignore="Autofill" />
 
         <EditText
@@ -140,7 +140,7 @@
                 android:text="@string/fecha_nacimiento"
                 android:textAlignment="gravity"
                 android:textColor="@color/black"
-                android:textSize="18sp" />
+                android:textSize="20sp" />
 
             <ImageButton
                 android:id="@+id/ibtn_calendario"

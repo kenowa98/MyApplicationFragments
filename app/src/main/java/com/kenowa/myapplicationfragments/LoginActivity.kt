@@ -21,11 +21,11 @@ class LoginActivity : AppCompatActivity() {
             val nombre = datosRegistrados?.getString("nombre")
             val correo = datosRegistrados?.getString("correo")
             val clave = datosRegistrados?.getString("clave")
-            if (et_email.text.toString() == correo && et_clave.text.toString() == clave) {
-                val intent = Intent( this, MainActivity::class.java )
-                intent.putExtra( "nombre", nombre )
-                intent.putExtra( "correo", correo )
-                intent.putExtra( "clave", clave )
+            if (et_email_login.text.toString() == correo && et_clave_login.text.toString() == clave) {
+                val intent = Intent(this, MainActivity::class.java)
+                intent.putExtra("nombre", nombre)
+                intent.putExtra("correo", correo)
+                intent.putExtra("clave", clave)
                 intent.flags = Intent.FLAG_ACTIVITY_NEW_TASK or Intent.FLAG_ACTIVITY_CLEAR_TASK
                 startActivity(intent)
             } else {
